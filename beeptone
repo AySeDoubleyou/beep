@@ -1,0 +1,18 @@
+:for i from=1 to=2 step=1 do={
+  :beep frequency=261.63 length=200ms;  # Do
+  :delay 50ms;
+  :beep frequency=293.66 length=200ms;  # Re
+  :delay 50ms;
+  :beep frequency=329.63 length=200ms;  # Mi
+  :delay 50ms;
+  :beep frequency=349.23 length=200ms;  # Fa
+  :delay 50ms;
+  :beep frequency=392.00 length=200ms;  # So
+  :delay 50ms;
+  :beep frequency=440.00 length=200ms;  # La
+  :delay 50ms;
+  :beep frequency=493.88 length=200ms;  # Si
+  :delay 50ms;
+  :beep frequency=523.25 length=200ms;  # Do
+  :delay 100ms;
+}
