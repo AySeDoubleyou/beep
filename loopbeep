@@ -1,0 +1,5 @@
+:while (true) do={
+  beep
+  blink
+  delay 1000ms;
+}
